@@ -14,13 +14,14 @@
   
     <div data-role="page" id="pageone">
 
-        <div data-role="panel" id="leftPanel">
+        <div data-role="panel" id="leftPanel" data-display="overlay">
+            <a href="#pageone" data-role="button">Page One</a>
             <a href="#pagetwo" data-role="button">Page Two</a>
             <a href="#pagethree" data-role="button">Page Three</a>
         </div>
 
         <div data-role="header">
-            <a href="#leftPanel" class="ui-btn ui-btn-inline ui-corner-all" >Settings</a>
+            <a href="#leftPanel" class="ui-btn ui-btn-inline ui-corner-all ui">Settings</a>
             <h1>Homepage</h1>
         </div>
 
@@ -32,8 +33,9 @@
 
     <div data-role="page" id="pagetwo">
         
-        <div data-role="panel" id="leftPanel">
+        <div data-role="panel" id="leftPanel" data-display="reveal">
             <a href="#pageone" data-role="button">Page One</a>
+            <a href="#pagetwo" data-role="button">Page Two</a>
             <a href="#pagethree" data-role="button">Page Three</a>
         </div>
         
@@ -46,10 +48,11 @@
         </div>
     </div>
 
-    <div data-role="page" id="pagethree">
+    <div data-role="page" id="pagethree"data-display="push">
         <div data-role="panel" id="leftPanel">
             <a href="#pageone" data-role="button">Page One</a>
             <a href="#pagetwo" data-role="button">Page Two</a>
+            <a href="#pagethree" data-role="button">Page Three</a>
         </div>
         <div data-role="header">
             <a href="#leftPanel" class="ui-btn ui-btn-inline ui-corner-all" >Settings</a>
