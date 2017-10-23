@@ -1,4 +1,4 @@
-var db = window.openDatabase("foods_db", 1.0, "food database", 1024 * 1024);
+/*var db = window.openDatabase("foods_db", 1.0, "food database", 1024 * 1024);
 db.transaction(createTable, error, success);
 	
 function createTable(tx) {	
@@ -49,3 +49,4 @@ function onDeviceReady() {
     });
     $('#searchFood').html(output).listview("refresh");
 }
+*/
