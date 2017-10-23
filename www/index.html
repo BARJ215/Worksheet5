@@ -10,7 +10,7 @@
 	<link href="jquery-mobile/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="font-size:30px;">
+<body>
   
     <div data-role="page" id="pageone">
 
@@ -21,8 +21,8 @@
         </div>
 
         <div data-role="header">
-            <a href="#leftPanel" class="ui-btn ui-btn-inline ui-corner-all ui">Settings</a>
             <h1>Homepage</h1>
+            <a href="#leftPanel" data-icon="bars" data-iconpos="notext">Settings</a>
         </div>
 
         <div data-role="main" class="ui-content" >
@@ -40,10 +40,10 @@
         </div>
         
         <div data-role="header">
-            <a href="#leftPanel" class="ui-btn ui-btn-inline ui-corner-all" >Settings</a>
+            <a href="#leftPanel" data-icon="bars" data-iconpos="notext">Settings</a>
             <h1>Page Two</h1>
         </div>
-        <div data-role="main" class="ui-content">
+        <div data-role="main" class="ui-content jqm-content jqm-fullwidth">
             <p>This is Page Two.</p>
         </div>
     </div>
@@ -55,7 +55,7 @@
             <a href="#pagethree" data-role="button">Page Three</a>
         </div>
         <div data-role="header">
-            <a href="#leftPanel" class="ui-btn ui-btn-inline ui-corner-all" >Settings</a>
+            <a href="#leftPanel" data-icon="bars" data-iconpos="notext" >Settings</a>
             <h1>Page Three</h1>
         </div>
         <div data-role="main" class="ui-content">
